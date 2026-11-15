@@ -1,16 +1,18 @@
 # Часть 1 - запуск вручную
 
-Создание и запуск контейнера  redis
-<img width="908" height="302" alt="{3BA562B1-FA04-4E09-AF5E-0CF77D30445E}" src="https://github.com/user-attachments/assets/4944191b-2029-45b8-8c94-70e6b224c0e6" />
+Создание и запуск контейнера  redis и связка через --link
+<img width="1473" height="217" alt="изображение" src="https://github.com/user-attachments/assets/e0dc9344-85f5-4b47-ade8-163eb0ec4db4" />
 
 Проверка работы сайта
 <img width="1382" height="936" alt="{5B7A6424-35B3-43F6-B7A6-7C726FF6C6E2}" src="https://github.com/user-attachments/assets/881a6435-70c2-45a9-a798-a81216e2c180" />
+
+http-ответ
 <img width="1094" height="234" alt="{F83A42CF-2B4B-40DC-AC9E-764262430D64}" src="https://github.com/user-attachments/assets/7fcec0d8-67be-45a1-9144-f28ee4387a19" />
 
 # Часть 2 - docker-compose.yml
 
 Создаём docker-compose.yml в каталоге /root/rocketcounter 
-<img width="624" height="211" alt="{990DC840-649E-41C8-96C5-1F533EED3519}" src="https://github.com/user-attachments/assets/da5bc4f6-2d4f-47ae-a908-ba49a00933c9" />
+<img width="712" height="243" alt="изображение" src="https://github.com/user-attachments/assets/a56d493c-0016-4a15-af74-fd94a53fa9c5" />
 
 Заполняем файл
 ```
@@ -41,15 +43,15 @@ services:
 ```
 
 Запуск
-<img width="1640" height="214" alt="{47B4590D-2E04-4DD2-A1D3-64AA03A3E062}" src="https://github.com/user-attachments/assets/d02594b7-9346-4b00-a3d2-6b0a87ed7fb1" />
+<img width="1711" height="254" alt="{AD627974-8A53-4869-97B0-62FC5F791F58}" src="https://github.com/user-attachments/assets/2d70bbb9-481f-4177-8b99-74e0cc26a4ef" />
 
 Проверка сайтов
 <img width="1360" height="357" alt="изображение" src="https://github.com/user-attachments/assets/5e71e6fa-5105-401d-b2ae-88d9f7c8de9e" />
 <img width="1379" height="415" alt="изображение" src="https://github.com/user-attachments/assets/261f448a-387c-46e9-9c7f-1dc32e73ceaa" />
 
 # Часть 4 - уничтожение стека
-Прописываем docker compose down -v
-<img width="774" height="195" alt="{6148790E-56B9-4300-BFAF-5DC23234F3AC}" src="https://github.com/user-attachments/assets/5d4af489-9841-48cc-bcb4-87079ebf0d38" />
+Прописываем docker compose down -v, проверяем 
+<img width="1788" height="289" alt="{E52D6803-1277-479E-ACAA-7F64AD4B7782}" src="https://github.com/user-attachments/assets/2d25dd7c-7a9c-4826-b64d-6e5eaf4e6ee5" />
 
 # Вопросы
 Q: Зачем в Ч.1 использовался --link и почему в Compose он не нужен?
